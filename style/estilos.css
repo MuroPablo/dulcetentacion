@@ -1,0 +1,128 @@
+/* Tipo de letra para la página */
+*{
+    font-family: "Dancing Script";
+}
+/* Imágen de fondo de la página */
+html{
+    font-size: 16px;
+}
+body{
+    background-image: url("../imgs/background.jpg");
+    background-attachment: fixed;
+    background-color: rgb(255,182,183);
+     width: 85%; 
+     max-width: 900px; 
+     margin: 0 auto; 
+     font-size: 16px;
+}
+/* Estilo Header */
+.cabecera{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* Tamaño y ubicación del logo */
+.logo{
+    width: 11rem;
+}
+/* Tipo de letra para el nombre del comercio */
+.marca{
+    font-family: "Great Vibes";
+    font-size: 2.5rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+/* Tamaño y color de la barra separadora */
+.separador{
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Tamaño de las fotos */
+.flexContenedor{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.contenedorFotos{
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+.fotos{
+    width: 100%;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+/* Atributos de la lista de navegación */
+nav li{
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+}
+nav li:last-child{
+    border-right:none;
+}
+/* Textos centrados */
+.textoCentrado{
+    text-align: center;
+}
+/* Tamaño de los logos de redes sociales */
+.img-redes{
+    width: 4rem;
+}
+/* Tamaño de letra general */
+p{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+/* Atributos de los botones de Compra */
+.botonCompra{
+    margin: 0 auto; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+}
+.botonCompra:hover {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  }
+/* Atributos del formulario de contacto */
+.form{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    width: 90%;
+    height: 30px;
+}
+/* Atributo de la foto de contacto */
+.fotoContacto{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
