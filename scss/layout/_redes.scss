@@ -1,0 +1,21 @@
+// Redes Sociales
+.textoCentrado {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  padding-right: 0.5rem;
+}
+.img-redes {
+  width: 4rem;
+  margin-bottom: 1rem;
+  @extend %hoverZoom;
+}

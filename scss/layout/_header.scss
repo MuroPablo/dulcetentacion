@@ -1,0 +1,21 @@
+// Cabecera
+.cabecera {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 8rem;
+}
+.marca {
+  font-family: $fuenteMarca;
+  font-size: 2.2rem;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.separador {
+  background-color: $colorSeparador;
+  height: 1.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}

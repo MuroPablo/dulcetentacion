@@ -1,0 +1,43 @@
+// Fotos
+.flexContenedor {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.contenedorFotos {
+  @extend %contenedor;
+  width: 30rem;
+  transition-duration: 1s;
+
+  &:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.contenedorPromos {
+  @extend %contenedor;
+  width: 25rem;
+  min-height: 70vh;
+}
+
+.fotos {
+  width: 100%;
+  border-radius: 15px;
+  transition-duration: 1s;
+
+  &:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px $colorHover;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.fotoContacto {
+  width: 100%;
+  max-width: 300%;
+  border-radius: 1rem;
+}
