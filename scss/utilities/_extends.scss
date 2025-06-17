@@ -1,0 +1,16 @@
+// Extends
+%contenedor {
+  border-radius: 10px;
+  border: 1px solid $colorBorde;
+  box-shadow: $sombraTarjeta;
+  padding-bottom: 1rem;
+}
+
+%hoverZoom {
+  transition-duration: 1s;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+  }
+}

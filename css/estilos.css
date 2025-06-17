@@ -1,0 +1,187 @@
+.contenedorPromos, .contenedorFotos {
+  border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+}
+
+.img-redes {
+  transition-duration: 1s;
+}
+.img-redes:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+* {
+  font-family: "Dancing Script";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url("../imgs/background.jpg");
+  background-attachment: fixed;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
+p {
+  margin: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.marca {
+  font-family: "Great Vibes";
+  font-size: 2.2rem;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.separador {
+  background-color: rgb(255, 255, 255);
+  height: 1.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav {
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.navbar-toggler {
+  margin: 3.5px;
+  border-style: none;
+}
+
+.flexContenedor {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.contenedorFotos {
+  width: 30rem;
+  transition-duration: 1s;
+}
+.contenedorFotos:hover {
+  transform: scale(1.03);
+  transition: all 0.5s ease-in-out;
+}
+
+.contenedorPromos {
+  width: 25rem;
+  min-height: 70vh;
+}
+
+.fotos {
+  width: 100%;
+  border-radius: 15px;
+  transition-duration: 1s;
+}
+.fotos:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px rgb(233, 152, 152);
+  transition: all 0.5s ease-in-out;
+}
+
+.textoCentrado {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding-right: 0.5rem;
+}
+
+.img-redes {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.botonCompra {
+  font-size: 0.8rem;
+  font-family: Verdana;
+  width: 45%;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.5s ease-in-out;
+}
+.botonCompra:hover {
+  background-color: rgb(233, 152, 152);
+}
+
+.botonConsulta {
+  font-size: 0.9rem;
+  font-family: Verdana;
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.5s ease-in-out;
+  display: block;
+  margin: 2rem auto;
+}
+.botonConsulta:hover {
+  background-color: rgb(233, 152, 152);
+}
+
+.fotoContacto {
+  width: 100%;
+  max-width: 300%;
+  border-radius: 1rem;
+}
+
+@media (max-width: 380px) {
+  .cabecera {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 620px) {
+  .ocultarFlechas {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

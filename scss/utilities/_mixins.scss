@@ -1,0 +1,13 @@
+// Mixins
+@mixin botonEstilo ($fontSize, $fontFamily, $ancho, $radioBorde, $borde, $transicion){
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  width: $ancho;
+  border-radius: $radioBorde;
+  border: $borde;
+  transition: $transicion;
+
+  &:hover {
+    background-color: $colorHover;
+  }
+}
