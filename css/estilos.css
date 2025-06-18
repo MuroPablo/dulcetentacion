@@ -2,7 +2,6 @@
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-  padding-bottom: 1rem;
 }
 
 .img-redes {
@@ -151,6 +150,7 @@ li {
   border-radius: 10px;
   border: none;
   transition: background-color 0.5s ease-in-out;
+  margin-bottom: 1rem;
 }
 .botonCompra:hover {
   background-color: rgb(233, 152, 152);
