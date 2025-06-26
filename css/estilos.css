@@ -68,12 +68,14 @@ main {
 
 h2 {
   font-size: 1.5rem;
-  margin: 1rem;
+  padding: 1rem;
+  margin: 0;
 }
 
 h3 {
   font-size: 1.4rem;
   padding-top: 1rem;
+  margin: 0;
 }
 
 p {
@@ -109,13 +111,16 @@ nav {
 }
 
 .contenedorPromos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 25rem;
-  min-height: 70vh;
+  height: 750px;
 }
 
 .fotos {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
   transition-duration: 1s;
 }
 .fotos:hover {
@@ -131,6 +136,7 @@ nav {
 
 .fuenteConsultas {
   font-family: "Verdana";
+  font-size: 0.9rem;
 }
 
 .anchoSlider {
@@ -139,8 +145,7 @@ nav {
 
 .fotoContacto {
   width: 100%;
-  max-width: 300%;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .bizcochuelosBg {

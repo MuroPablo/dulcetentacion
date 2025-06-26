@@ -20,13 +20,16 @@
 
 .contenedorPromos {
   @extend %contenedor;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 25rem;
-  min-height: 70vh;
+  height: 750px;
 }
 
 .fotos {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
   transition-duration: 1s;
 
   &:hover {
@@ -44,6 +47,7 @@
 
 .fuenteConsultas {
   font-family: "Verdana";
+  font-size: 0.9rem;
 }
 
 .anchoSlider {
@@ -52,8 +56,7 @@
 
 .fotoContacto {
   width: 100%;
-  max-width: 300%;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 // Fondos de los contenedores
