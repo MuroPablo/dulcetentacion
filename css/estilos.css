@@ -12,6 +12,12 @@
   transition: all 0.5s ease-in-out;
 }
 
+.contactoBg, .desayunoInfantilBg, .desayunoPromoBg, .especialidadesBg, .postresBg, .tartasBg, .tortasBg, .rellenosBg, .coberturasBg, .bizcochuelosBg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .cabecera {
   display: flex;
   align-items: center;
@@ -50,13 +56,14 @@ html {
 
 body {
   background-image: url("../imgs/background.webp");
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 85%;
-  min-height: 100vh;
   margin: 0 auto;
-  font-size: 16px;
+}
+
+main {
+  min-height: 100vh;
 }
 
 h2 {
@@ -122,6 +129,14 @@ nav {
   max-width: 400px;
 }
 
+.fuenteConsultas {
+  font-family: "Verdana";
+}
+
+.anchoSlider {
+  max-width: 600px;
+}
+
 .fotoContacto {
   width: 100%;
   max-width: 300%;
@@ -130,65 +145,42 @@ nav {
 
 .bizcochuelosBg {
   background-image: url("../imgs/bizcochuelos.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .coberturasBg {
   background-image: url("../imgs/coberturas.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .rellenosBg {
   background-image: url("../imgs/rellenos.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .tortasBg {
   background-image: url("../imgs/tortas.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .tartasBg {
   background-image: url("../imgs/tartas.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .postresBg {
   background-image: url("../imgs/postres.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .especialidadesBg {
   background-image: url("../imgs/especialidades.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .desayunoPromoBg {
   background-image: url("../imgs/desayunoPromo.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .desayunoInfantilBg {
   background-image: url("../imgs/desayunoInfantil.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+}
+
+.contactoBg {
+  background-image: url("../imgs/cupcake.jpg");
 }
 
 .textoCentrado {

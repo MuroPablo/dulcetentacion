@@ -42,66 +42,59 @@
   max-width: 400px;
 }
 
+.fuenteConsultas {
+  font-family: "Verdana";
+}
+
+.anchoSlider {
+  max-width: 600px;
+}
+
 .fotoContacto {
   width: 100%;
   max-width: 300%;
   border-radius: 1rem;
 }
 
-
 // Fondos de los contenedores
 
 .bizcochuelosBg {
   background-image: url("../imgs/bizcochuelos.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .coberturasBg {
   background-image: url("../imgs/coberturas.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .rellenosBg {
   background-image: url("../imgs/rellenos.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .tortasBg {
   background-image: url("../imgs/tortas.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .tartasBg {
   background-image: url("../imgs/tartas.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .postresBg {
   background-image: url("../imgs/postres.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .especialidadesBg {
   background-image: url("../imgs/especialidades.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .desayunoPromoBg {
   background-image: url("../imgs/desayunoPromo.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
 }
 .desayunoInfantilBg {
   background-image: url("../imgs/desayunoInfantil.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  @extend %fondos;
+}
+.contactoBg {
+  background-image: url("../imgs/cupcake.jpg");
+  @extend %fondos;
 }
