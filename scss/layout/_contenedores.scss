@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 25rem;
-  height: 750px;
+  height: 780px;
 }
 
 .fotos {
@@ -62,42 +62,42 @@
 // Fondos de los contenedores
 
 .bizcochuelosBg {
-  background-image: url("../imgs/bizcochuelos.jpg");
+  background-image: url("../imgs/bizcochuelos.webp");
   @extend %fondos;
 }
 .coberturasBg {
-  background-image: url("../imgs/coberturas.jpg");
+  background-image: url("../imgs/coberturas.webp");
   @extend %fondos;
 }
 .rellenosBg {
-  background-image: url("../imgs/rellenos.jpg");
+  background-image: url("../imgs/rellenos.webp");
   @extend %fondos;
 }
 .tortasBg {
-  background-image: url("../imgs/tortas.jpg");
+  background-image: url("../imgs/tortas.webp");
   @extend %fondos;
 }
 .tartasBg {
-  background-image: url("../imgs/tartas.jpg");
+  background-image: url("../imgs/tartas.webp");
   @extend %fondos;
 }
 .postresBg {
-  background-image: url("../imgs/postres.jpg");
+  background-image: url("../imgs/postres.webp");
   @extend %fondos;
 }
 .especialidadesBg {
-  background-image: url("../imgs/especialidades.jpg");
+  background-image: url("../imgs/especialidades.webp");
   @extend %fondos;
 }
 .desayunoPromoBg {
-  background-image: url("../imgs/desayunoPromo.jpg");
+  background-image: url("../imgs/desayunoPromo.webp");
   @extend %fondos;
 }
 .desayunoInfantilBg {
-  background-image: url("../imgs/desayunoInfantil.jpg");
+  background-image: url("../imgs/desayunoInfantil.webp");
   @extend %fondos;
 }
 .contactoBg {
-  background-image: url("../imgs/cupcake.jpg");
+  background-image: url("../imgs/cupcake.webp");
   @extend %fondos;
 }

@@ -23,6 +23,10 @@
   align-items: center;
 }
 
+.cabecera h2 {
+  padding: 0;
+}
+
 .logo {
   width: 8rem;
 }
@@ -32,7 +36,6 @@
   font-size: 2.2rem;
   display: flex;
   margin: 0;
-  padding: 0;
 }
 
 .separador {
@@ -115,7 +118,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   width: 25rem;
-  height: 750px;
+  height: 780px;
 }
 
 .fotos {
@@ -149,43 +152,43 @@ nav {
 }
 
 .bizcochuelosBg {
-  background-image: url("../imgs/bizcochuelos.jpg");
+  background-image: url("../imgs/bizcochuelos.webp");
 }
 
 .coberturasBg {
-  background-image: url("../imgs/coberturas.jpg");
+  background-image: url("../imgs/coberturas.webp");
 }
 
 .rellenosBg {
-  background-image: url("../imgs/rellenos.jpg");
+  background-image: url("../imgs/rellenos.webp");
 }
 
 .tortasBg {
-  background-image: url("../imgs/tortas.jpg");
+  background-image: url("../imgs/tortas.webp");
 }
 
 .tartasBg {
-  background-image: url("../imgs/tartas.jpg");
+  background-image: url("../imgs/tartas.webp");
 }
 
 .postresBg {
-  background-image: url("../imgs/postres.jpg");
+  background-image: url("../imgs/postres.webp");
 }
 
 .especialidadesBg {
-  background-image: url("../imgs/especialidades.jpg");
+  background-image: url("../imgs/especialidades.webp");
 }
 
 .desayunoPromoBg {
-  background-image: url("../imgs/desayunoPromo.jpg");
+  background-image: url("../imgs/desayunoPromo.webp");
 }
 
 .desayunoInfantilBg {
-  background-image: url("../imgs/desayunoInfantil.jpg");
+  background-image: url("../imgs/desayunoInfantil.webp");
 }
 
 .contactoBg {
-  background-image: url("../imgs/cupcake.jpg");
+  background-image: url("../imgs/cupcake.webp");
 }
 
 .textoCentrado {
@@ -204,7 +207,7 @@ ul {
 
 li {
   display: inline;
-  padding-right: 0.5rem;
+  padding: 0 0.5rem 0 0.5rem;
 }
 
 .img-redes {
@@ -220,6 +223,7 @@ li {
   border: none;
   transition: background-color 0.5s ease-in-out;
   margin-bottom: 1rem;
+  height: 22px;
 }
 .botonCompra:hover {
   background-color: rgb(233, 152, 152);
@@ -228,18 +232,20 @@ li {
 .botonConsulta {
   font-size: 0.9rem;
   font-family: Verdana;
-  width: 40%;
+  width: 80%;
   border-radius: 10px;
   border: none;
   transition: background-color 0.5s ease-in-out;
   display: block;
   margin: 2rem auto;
+  min-width: 200px;
+  height: 22px;
 }
 .botonConsulta:hover {
   background-color: rgb(233, 152, 152);
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .cabecera {
     flex-direction: column;
     align-items: center;
