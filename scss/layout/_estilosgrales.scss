@@ -7,11 +7,15 @@
 }
 html {
   font-size: 16px;
+  height: 100%;
 }
 body {
-  background-image: url("../imgs/background.jpg");
+  background-image: url("../imgs/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   width: 85%;
+  min-height: 100vh;
   margin: 0 auto;
   font-size: 16px;
 }

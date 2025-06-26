@@ -36,8 +36,72 @@
   }
 }
 
+.contenedorConsultas {
+  @extend %contenedor;
+  padding: 1rem;
+  max-width: 400px;
+}
+
 .fotoContacto {
   width: 100%;
   max-width: 300%;
   border-radius: 1rem;
+}
+
+
+// Fondos de los contenedores
+
+.bizcochuelosBg {
+  background-image: url("../imgs/bizcochuelos.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.coberturasBg {
+  background-image: url("../imgs/coberturas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.rellenosBg {
+  background-image: url("../imgs/rellenos.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.tortasBg {
+  background-image: url("../imgs/tortas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.tartasBg {
+  background-image: url("../imgs/tartas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.postresBg {
+  background-image: url("../imgs/postres.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.especialidadesBg {
+  background-image: url("../imgs/especialidades.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.desayunoPromoBg {
+  background-image: url("../imgs/desayunoPromo.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.desayunoInfantilBg {
+  background-image: url("../imgs/desayunoInfantil.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }

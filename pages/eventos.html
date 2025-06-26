@@ -21,11 +21,13 @@
   <body>
     <header class="header">
       <div class="cabecera">
-        <img
-          class="logo"
-          src="../imgs/logoCaro.png"
-          alt="Logo Dulce Tentación"
-        />
+        <a href="../index.html">
+          <img
+            class="logo"
+            src="../imgs/logoCaro.png"
+            alt="Logo Dulce Tentación"
+          />
+        </a>
         <div>
           <h1 class="marca textoCentrado">Dulce Tentación</h1>
           <h2 class="textoCentrado" style="margin: 0 0">
@@ -34,10 +36,10 @@
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-lg p-0 bg-white w-100">
+      <nav class="navbar navbar-expand-md p-0 bg-white w-100">
         <div class="container-fluid p-0">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -48,7 +50,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse"
+            class="collapse navbar-collapse textoCentrado"
             id="navbarSupportedContent"
             style="padding-left: 1rem"
           >
@@ -84,12 +86,16 @@
       <h2 class="textoCentrado">
         Disponemos de lo que gustes para cualquier ocasión especial
       </h2>
-      <div id="desayunoCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="desayunoCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
           <!-- Slide 1 -->
           <div class="carousel-item active">
             <div class="d-flex justify-content-center align-items-center p-3">
-              <section class="bg-white contenedorPromos">
+              <section class="bg-white contenedorPromos desayunoPromoBg">
                 <h3 class="textoCentrado">DESAYUNO CLÁSICO</h3>
                 <p>1 Mini torta</p>
                 <p>2 Sandwiches de jamón y queso</p>
@@ -107,7 +113,7 @@
           <!-- Slide 2 -->
           <div class="carousel-item">
             <div class="d-flex justify-content-center align-items-center p-3">
-              <section class="bg-white contenedorPromos">
+              <section class="bg-white contenedorPromos desayunoInfantilBg">
                 <h3 class="textoCentrado">DESAYUNO INFANTIL</h3>
                 <p>1 Mini torta</p>
                 <p>1 Cupcake</p>
@@ -126,11 +132,6 @@
             </div>
           </div>
         </div>
-        <hr class="separador">
-        <section>
-                <h3 class="textoCentrado">CUMPLEAÑOS, FIESTAS DE 15, CASAMIENTOS, COMUNIONES Y MAS</h3>
-        </section>
-        <hr class="separador">
 
         <!-- Controles de navegación -->
         <button
@@ -139,7 +140,11 @@
           data-bs-target="#desayunoCarousel"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon"  style="width: 3rem; height: 3rem;" aria-hidden="true"></span>
+          <span
+            class="carousel-control-prev-icon"
+            style="width: 3rem; height: 3rem"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Anterior</span>
         </button>
         <button
@@ -148,10 +153,18 @@
           data-bs-target="#desayunoCarousel"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" style="width: 3rem; height: 3rem;" aria-hidden="true"></span>
+          <span
+            class="carousel-control-next-icon"
+            style="width: 3rem; height: 3rem"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
+      <h3 class="textoCentrado">
+        CUMPLEAÑOS, FIESTAS DE 15, CASAMIENTOS, COMUNIONES Y MAS
+      </h3>
+      <hr class="separador" />
     </main>
     <footer>
       <h2 class="textoCentrado">Seguinos en nuestras redes!</h2>

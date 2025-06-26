@@ -21,11 +21,13 @@
   <body>
     <header class="header">
       <div class="cabecera">
-        <img
-          class="logo"
-          src="../imgs/logoCaro.png"
-          alt="Logo Dulce Tentación"
-        />
+        <a href="../index.html">
+          <img
+            class="logo"
+            src="../imgs/logoCaro.png"
+            alt="Logo Dulce Tentación"
+          />
+        </a>
         <div>
           <h1 class="marca textoCentrado">Dulce Tentación</h1>
           <h2 class="textoCentrado" style="margin: 0 0">
@@ -34,10 +36,10 @@
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-lg p-0 bg-white w-100">
+      <nav class="navbar navbar-expand-md p-0 bg-white w-100">
         <div class="container-fluid p-0">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -48,7 +50,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse"
+            class="collapse navbar-collapse textoCentrado"
             id="navbarSupportedContent"
             style="padding-left: 1rem"
           >
@@ -84,39 +86,41 @@
       <h2 class="textoCentrado">
         Si tenés alguna consulta o sugerencias no dudes en escribirnos
       </h2>
-      <form class="container">
-        <div class="mb-3 mt-5">
-          <label for="nombre" class="form-label fs-5">Nombre:</label>
-          <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            class="form-control"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label fs-5">Correo:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            class="form-control"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="mensaje" class="form-label fs-5">Mensaje:</label>
-          <textarea
-            id="mensaje"
-            name="mensaje"
-            rows="6"
-            class="form-control"
-            required
-          ></textarea>
-        </div>
-        <button type="submit" class="botonConsulta">Enviar</button>
-      </form>
+      <section class="mx-auto p-3">
+        <form class="container contenedorConsultas">
+          <div class="mb-3">
+            <label for="nombre" class="form-label fs-5">Nombre:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fs-5">Correo:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label fs-5">Mensaje:</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="6"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="botonConsulta">Enviar</button>
+        </form>
+      </section>
       <hr class="separador" />
     </main>
     <footer>

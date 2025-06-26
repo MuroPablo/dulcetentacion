@@ -1,4 +1,4 @@
-.contenedorPromos, .contenedorFotos {
+.contenedorConsultas, .contenedorPromos, .contenedorFotos {
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
@@ -45,12 +45,16 @@
 
 html {
   font-size: 16px;
+  height: 100%;
 }
 
 body {
-  background-image: url("../imgs/background.jpg");
+  background-image: url("../imgs/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   width: 85%;
+  min-height: 100vh;
   margin: 0 auto;
   font-size: 16px;
 }
@@ -113,10 +117,78 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+.contenedorConsultas {
+  padding: 1rem;
+  max-width: 400px;
+}
+
 .fotoContacto {
   width: 100%;
   max-width: 300%;
   border-radius: 1rem;
+}
+
+.bizcochuelosBg {
+  background-image: url("../imgs/bizcochuelos.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.coberturasBg {
+  background-image: url("../imgs/coberturas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.rellenosBg {
+  background-image: url("../imgs/rellenos.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.tortasBg {
+  background-image: url("../imgs/tortas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.tartasBg {
+  background-image: url("../imgs/tartas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.postresBg {
+  background-image: url("../imgs/postres.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.especialidadesBg {
+  background-image: url("../imgs/especialidades.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.desayunoPromoBg {
+  background-image: url("../imgs/desayunoPromo.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.desayunoInfantilBg {
+  background-image: url("../imgs/desayunoInfantil.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .textoCentrado {
@@ -159,7 +231,7 @@ li {
 .botonConsulta {
   font-size: 0.9rem;
   font-family: Verdana;
-  width: 25%;
+  width: 40%;
   border-radius: 10px;
   border: none;
   transition: background-color 0.5s ease-in-out;
@@ -178,7 +250,7 @@ li {
     margin-bottom: 15px;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 700px) {
   .ocultarFlechas {
     display: none;
   }
