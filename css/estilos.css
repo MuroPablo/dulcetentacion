@@ -245,7 +245,7 @@ li {
   background-color: rgb(233, 152, 152);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 380px) {
   .cabecera {
     flex-direction: column;
     align-items: center;
