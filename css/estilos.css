@@ -55,7 +55,6 @@
 
 html {
   font-size: 16px;
-  height: 100%;
 }
 
 body {
@@ -67,7 +66,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 h2 {
